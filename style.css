@@ -11,7 +11,7 @@
 }
 
 :root {
-    --color-primary: #6c5ce7;
+    --color-primary: #2D5A27;
     --color-gray-0: #fff;
     --color-gray-100: #ecf2f6;
     --color-gray-200: #d9dfe7;
@@ -557,7 +557,7 @@ margin: 0.7rem 0 1.5rem;
     left: 50%;
     transform: translateX(-50%);
     border: 0.4rem solid var(--color-gray-0);
-    box-shadow: 0 2rem 1.5rem -1rem var(--color-gray-300);
+    /* box-shadow: 0 2rem 1.5rem -1rem var(--color-gray-300); */
 }
 
 .testimonial span i {
