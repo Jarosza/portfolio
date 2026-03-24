@@ -19,8 +19,8 @@ navMenu.forEach((item) => {
 // 3. INTERSECTION OBSERVER - Automatyczne podświetlanie przy skrolowaniu
 const observerOptions = {
   root: null,
-  threshold: 0.4, // Sekcja jest aktywna, gdy widać 50% jej powierzchni
-  rootMargin: "-10% 0px -40% 0px", // Poprawia czułość na urządzeniach mobilnych
+  threshold: 0, // Sekcja jest aktywna, gdy widać 50% jej powierzchni
+  rootMargin: "10% 0px -70% 0px", // Poprawia czułość na urządzeniach mobilnych
 };
 
 const observer = new IntersectionObserver((entries) => {
@@ -122,5 +122,3 @@ async function handleSubmit(event) {
 }
 
 form.addEventListener("submit", handleSubmit);
-
-
