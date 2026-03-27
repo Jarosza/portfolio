@@ -284,20 +284,22 @@
                      </menu>
                  </article>
 
-                 <form action="https://formspree.io/f/mzdjlyvj" method="POST">
-                     <div class="form_controller">
-                         <input type="text" name="name" id="full-name" placeholder=" " required>
-                         <label for="full-name">Name</label>
-                     </div>
-                     <div class="form_controller">
-                         <input type="email" name="email" id="email-address" placeholder=" " required>
-                         <label for="email-address">Email</label>
-                     </div>
-                     <div class="form_controller">
-                         <textarea name="message" id="contact-message" placeholder=" " required></textarea>
-                         <label for="contact-message">Message</label>
-                     </div>
-                     <button type="submit" class="btn primary">Submit</button>
+                 <form action="https://formspree.io/f/mzdjlyvj" method="POST" id="contact-form"> <div class="form_controller">
+                    <input type="text" name="name" id="full-name" placeholder=" " required>
+                    <label for="full-name">Name</label>
+                </div>
+                <div class="form_controller">
+                    <input type="email" name="email" id="email-address" placeholder=" " required>
+                    <label for="email-address">Email</label>
+                </div>
+                <div class="form_controller">
+                    <textarea name="message" id="contact-message" placeholder=" " required></textarea>
+                    <label for="contact-message">Message</label>
+                </div>
+                
+                <div id="form-status"></div> 
+                
+                <button type="submit" class="btn primary" id="submit-btn">Submit</button> </form>
                  </form>
              </div>
          </section>
