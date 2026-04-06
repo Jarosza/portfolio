@@ -95,7 +95,7 @@ async function handleSubmit(event) {
   })
     .then((response) => {
       if (response.ok) {
-        status.innerHTML = "Dziękuję! Wiadomość została wysłana.";
+        status.innerHTML = "Thank you! Your message has been sent.";
         status.style.color = "green";
         form.reset(); // Czyścimy pola formularza
       } else {
